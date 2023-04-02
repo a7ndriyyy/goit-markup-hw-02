@@ -1,0 +1,218 @@
+:root{
+
+       
+}
+body{
+    background: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    color: #434455
+}
+
+.list{
+    list-style:none ;
+}
+.link{
+    text-decoration: none;
+}
+
+.top-line{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.nav{
+    font-weight: 500;
+    line-height: 1.5;
+
+}
+
+.address{
+    font-style: normal ;
+    line-height: 1.5;
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17 ;
+}
+.logo-item{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+}
+.nav-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.list-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+.hero-header{
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    font-size: 56px;
+    line-height: 1.07 ;
+
+}
+
+.hero-button:hover:focus{
+    background-color: #4D5AE5; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em ;
+    color: #ffffff;
+    background-color: #404BBF;
+    cursor: pointer;
+
+}
+/* Porfolio button */
+.button-all{
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.button{
+    box-sizing: border-box;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+/* finish portfolio button */
+.hero{
+    background: #2E2F42;
+}
+
+
+
+/* Title text section */
+
+.title{
+    font-family: "Roboto";
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2 ;
+}
+
+
+.title-text{
+    font-family: "Roboto";
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+.text{
+    font-family: "Roboto";
+    font-style: normal;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+
+
+}
+.team-text{
+    font-family: "Roboto";
+    font-style: normal;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    font-size: 36px;
+    line-height: 1.11 ;
+    text-align: center;
+}
+
+/* footer text */
+
+.footer-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+/* portfolio text img */
+
+.text-item{
+    font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.text-under{
+  font-family: 'Roboto';
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color: #434455;
+
+}
+
+/* portfolio images  */
+.images-style{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #E7E9FC;
+}
+
+.goit-team{   
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.section{
+    background: #F4F4FD;
+}
+
+.footer{
+    background: #2E2F42;
+}
+.logo-item-studio{
+    font-family: "Raleway",sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17 ;
+
+}
+
