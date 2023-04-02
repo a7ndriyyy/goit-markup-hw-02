@@ -18,7 +18,7 @@
 body{
     background: #FFFFFF;
     font-family: "Roboto", sans-serif;
-    color: #434455
+    color: #434455;
 }
 
 .list{
@@ -41,11 +41,11 @@ body{
 }
 
 .studio{
-    color: #404bbf
+    color: #404bbf;
 }
 .studio:hover,
 .studio:focus{
-    color: #404bbf
+    color: #404bbf;
 }
 
 .address{
@@ -121,14 +121,11 @@ body{
     cursor: pointer;
 
 }
-.hero-button:hover{
-    background-color: #404BBF
-}
-
+.hero-button:hover,
 .hero-button:focus{
-
     background-color: #404BBF;
 }
+
 /* Porfolio button */
 .button-all{
     background: #404BBF;
