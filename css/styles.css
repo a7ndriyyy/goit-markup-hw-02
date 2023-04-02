@@ -27,15 +27,34 @@ body{
 
 }
 
-.studio:hover:focus{
+.studio{
     color: #404bbf
 }
+.studio:hover{
+    color: #404bbf
+}
+
+.studio:focus{
+    color: #404bbf
+}
+
+
 
 .address{
     font-style: normal ;
     line-height: 1.5;
 }
 
+
+.email{
+    color: #404bbf;
+}
+.email:hover{
+    color: #404bbf;
+}
+.email:focus{
+    color: #404bbf;
+}
 .logo{
     font-family: "Raleway", sans-serif;
     font-style: normal;
