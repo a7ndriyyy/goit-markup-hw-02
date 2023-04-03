@@ -81,7 +81,9 @@ body{
     color: #2E2F42;
 }
 
-.nav-link:hover,
+.nav-link:hover{
+    color: #404bbf;
+}
 .nav-link:focus{
     color: #404bbf;
 }
