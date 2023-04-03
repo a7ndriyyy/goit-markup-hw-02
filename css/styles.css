@@ -40,14 +40,6 @@ body{
 
 }
 
-.studio{
-    color: #2e2f42;
-}
-.studio:hover,
-.studio:focus{
-    color: #404bbf;
-}
-
 .address{
     font-style: normal ;
     line-height: 1.5;
@@ -87,6 +79,11 @@ body{
     font-style: normal;
     letter-spacing: 0.02em;
     color: #2E2F42;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    color: #404bbf;
 }
 .list-link{
     font-family: 'Roboto';
