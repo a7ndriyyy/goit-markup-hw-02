@@ -16,9 +16,9 @@
        
 }
 body{
-    background: #FFFFFF;
     font-family: "Roboto", sans-serif;
-    color: #434455;
+    background:var(--white);
+    color: var(--slate);
 }
 
 .list{
@@ -29,9 +29,8 @@ body{
 }
 
 .top-line{
-    box-sizing: border-box;
-    background: #FFFFFF;
-    border-bottom: 1px solid #E7E9FC;
+    background:var(--white);
+    border-bottom: 1px solid var(--cornflower);
 }
 
 .nav{
@@ -41,44 +40,39 @@ body{
 }
 
 .address{
-    font-style: normal ;
     line-height: 1.5;
 }
 
 
 .email{
-    color:  #434455;
+    color:var(--slate);
 }
 .email:hover,
 .email:focus{
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .logo{
     font-family: "Raleway", sans-serif;
-    font-style: normal;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color:var(--iris);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17 ;
 }
 .logo-item{
     font-family: "Raleway", sans-serif;
-    font-style: normal;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color:var(--navy-blue-modal);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
 }
 .nav-link{
-    font-family: "Roboto";
-    font-style: normal;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color:var(--navy-blue-modal);
 }
 
 
@@ -86,83 +80,75 @@ body{
 
 .nav-link:hover,
 .nav-link:focus{
-    color: #404bbf;
+    color: var(--ocean);
 }
 .list-link{
-    font-family: 'Roboto';
-    font-style: normal;
     letter-spacing: 0.02em;
-    color: #434455;
+    color:var(--slate);
 
 }
 
 .hero-header{
-  
-    font-family: 'Roboto';
-    font-style: normal;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--white);
     font-size: 56px;
     line-height: 1.07 ;
 
 }
 
 .hero-button{
-    background-color: #4D5AE5; 
+    background-color: var(--iris); 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em ;
-    color: #ffffff;
+    color: var(--white);
     cursor: pointer;
 
 }
 .hero-button:hover,
 .hero-button:focus{
-    background-color: #404BBF;
+    background-color: var(--ocean);
 }
 
 /* Porfolio button */
 .button-all{
-    background: #404BBF;
+    background:var(--ocean);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
 
 .button{
-    box-sizing: border-box;
-    background: #F4F4FD;
-    border: 1px solid #E7E9FC;
+    background:var(--cloud);
+    border: 1px solid var(--cornflower);
     border-radius: 4px;
 }
   /* buttons portfolio */
 .buttons{
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4d5ae5;
-    background-color:  #F4F4FD ;
+    color:var(--iris);
+    background-color: var(--cloud) ;
     cursor: pointer;
 }
 
 .buttons:hover{
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color:var(--white);
+    background-color: var(--ocean);
 }
 .buttons:focus{
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--white);
+    background-color: var(--ocean);
 }
 
 /* finish portfolio button */
 .hero{
-    background: #2E2F42;
+    background:var(--grey);
 }
 
 
@@ -170,10 +156,8 @@ body{
 /* Title text section */
 
 .title{
-    font-family: "Roboto";
-    font-style: normal;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--grey);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2 ;
@@ -181,20 +165,16 @@ body{
 
 
 .title-text{
-    font-family: "Roboto";
-    font-style: normal;
     letter-spacing: 0.02em;
-    color: #434455;
+    color:var(--slate);
     font-size: 16px;
     line-height: 1.5;
 
 }
 .text{
-    font-family: "Roboto";
-    font-style: normal;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color:var(--navy-blue-modal);
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -202,11 +182,9 @@ body{
 
 }
 .team-text{
-    font-family: "Roboto";
-    font-style: normal;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color:var(--navy-blue-modal);
     font-size: 36px;
     line-height: 1.11 ;
     text-align: center;
@@ -215,10 +193,8 @@ body{
 /* footer text */
 
 .footer-text{
-    font-family: 'Roboto';
-    font-style: normal;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--cloud);
 }
 
 /* portfolio text img */
@@ -228,7 +204,7 @@ body{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42 ;
+    color:var(--grey) ;
 
 }
 
@@ -236,7 +212,7 @@ body{
     font-size: 16px ;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:  #434455;
+    color:  var(--slate);
 }
 
 
@@ -245,51 +221,45 @@ body{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--grey);
     
 }
 
 .text-item{
-    font-family: 'Roboto';
-    font-style: normal;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--navy-blue);
 }
 
 .text-under{
-  font-family: 'Roboto';
-  font-style: normal;
   letter-spacing: 0.02em;
-  color: #434455;
+  color:var(--slate);
 
 }
 
 /* portfolio images  */
 .images-style{
-    box-sizing: border-box;
-    background: #FFFFFF;
-    border: 1px solid #E7E9FC;
+    background: var(--white);
+    border: 1px solid var(--cornflower);
 }
 
 .goit-team{   
-    background: #FFFFFF;
+    background:var(--white);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
 
 .section{
-    background: #F4F4FD;
+    background: var(--cloud);
 }
 
 .footer{
-    background: #2E2F42;
+    background: var(--navy-blue-modal);
 }
 .logo-item-studio{
     font-family: "Raleway",sans-serif;
-    font-style: normal;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: var(--cloud);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17 ;
